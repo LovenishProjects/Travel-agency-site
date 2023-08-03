@@ -1,0 +1,351 @@
+/* Add some basic styling to the navigation bar */
+
+header {
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+/* Style the header section */
+section.hero {
+  background-color: #b3dc66;
+  padding: 50px;
+  text-align: center;
+    background-image: url(../images/The-public-transport-utility-is-running-the-facili_1685812157555.avif);
+  
+}
+
+section.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+section.hero p {
+  font-size: 20px;
+  color: #666;
+}
+/* Style the footer section */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0;
+}
+/* Style the hero section */
+section.hero {
+  background-image: url("path/to/your-image.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.hero-content .btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+/* Style the featured
+
+ destinations section */
+ .featured-destinations {
+  padding: 40px 0;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.destination-card {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.destination-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.destination-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.destination-card p {
+  font-size: 16px;
+  color: #777;
+}
+/* Style the destination page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 40px;
+}
+
+.destination-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.destination-header h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.destination-header img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.destination-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.destination-details ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.destination-details table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.destination-details th,
+.destination-details td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+footer {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+  color: #777;
+}
+/* Style the packages page */
+#search {
+  margin-bottom: 20px;
+}
+
+#search-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#packages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.package-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.package-card h2 {
+  margin-top: 0;
+}
+
+.package-card p {
+  margin-bottom: 0;
+}
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+h1, h2 {
+  margin-top: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+#experiences {
+  margin-bottom: 30px;
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+/* styles.css */
+
+#testimonials {
+  margin-bottom: 30px;
+}
+
+#testimonials h2 {
+  margin-top: 0;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+article img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+article p {
+  margin: 0;
+}
+
+article p:first-child {
+  font-style: italic;
+}
+
+article p strong {
+  font-weight: bold;
+}
+/* styles.css */
+
+#submission-form {
+  margin-bottom: 30px;
+}
+
+#submission-form h2 {
+  margin-top: 0;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.hero{
+  background-image: url(../images/The-public-transport-utility-is-running-the-facili_1685812157555.avif);
+  z-index: 10;
+}
+
+/* Add more styles as needed */
